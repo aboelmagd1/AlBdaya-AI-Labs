@@ -274,5 +274,6 @@ for ax in fig.axes:
     except:
         pass
 
-plt.tight_layout(rect=[0, 0.03, 1, 0.96])
+# plt.tight_layout(rect=[0, 0.03, 1, 0.96])
+plt.tight_layout()
 plt.show()
